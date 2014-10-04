@@ -9,10 +9,11 @@
 		<clobbers target="echo" />
 	</js-module>
 	<platform name="android">
-		<config-file target="config.xml" parent="/*">
+		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="Echo">
 				<param name="android-package" value="com.fit.test.plugin.EchoPlugin" />
 			</feature>
 		</config-file>
+		<source-file src="src/com/fit/test/plugin/EchoPlugin.java" target-dir="src/com/fit/test/plugin/" />
 	</platform>
 </plugin>

@@ -1,4 +1,4 @@
-package com.fit.test;
+package com.fit.test.plugin;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 

@@ -1,18 +1,18 @@
-﻿    <?xml version="1.0" encoding="UTF-8"?>
-    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="com.fit.test" version="0.0.1">
-        <name>Echo</name>
-        <description>Fit Echo Plugin</description>
-        <license>Apache 2.0</license>
-        <keywords>fit,echo</keywords>
-        <js-module src="www/echo.js" name="echo">
-            <clobbers target="echo" />
-        </js-module>
-        <platform name="android">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Echo">
-                <param name="android-package" value="com.fit.test.EchoPlugin"/>
-            </feature>
-        </config-file>
-    </platform>
-    </plugin>
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.fit.test"
+	version="0.0.1">
+	<name>Echo</name>
+	<description>Fit Echo Plugin</description>
+	<license>Apache 2.0</license>
+	<keywords>fit,echo</keywords>
+	<js-module src="www/echo.js" name="echo">
+		<clobbers target="echo" />
+	</js-module>
+	<platform name="android">
+		<config-file target="config.xml" parent="/*">
+			<feature name="Echo">
+				<param name="android-package" value="com.fit.test.EchoPlugin" />
+			</feature>
+		</config-file>
+	</platform>
+</plugin>

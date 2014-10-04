@@ -1,4 +1,9 @@
 package com.fit.test;
+import org.apache.cordova.api.CallbackContext;
+import org.apache.cordova.api.CordovaPlugin;
+import org.json.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONException;
 
 public class EchoPlugin extends CordovaPlugin {
 	@Override

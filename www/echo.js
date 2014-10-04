@@ -1,7 +1,7 @@
 var exec = argscheck = require('cordova/argscheck'),
 	channel = require('cordova/channel'),
 	utils = require('cordova/utils'),
-	require('cordova/exec'),
+	require = ('cordova/exec'),
     cordova = require('cordova');
 
 function Echo () {
